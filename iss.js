@@ -87,9 +87,9 @@ const nextISSTimesForMyLocation = function(callback) {
           return;
         }
         callback(null, results);
-      })
-    })
-  })
+      });
+    });
+  });
 };
 
 
